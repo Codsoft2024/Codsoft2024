@@ -1,0 +1,32 @@
+class Rectangle{
+int length,breadth;
+public Rectangle(int length,int breadth){
+this.length=length;
+this.breadth=breadth;
+}
+public boolean equals(Rectangle o){
+if(this.length==o.length && this.breadth == o.breadth)
+  return true;
+else
+return false;
+}
+}
+public class OverrideEquals{
+public static void main(String args[]){
+Rectangle r1 = new Rectangle(2,3);
+Rectangle r2 = new Rectangle(4,5);
+if(r1.equals(r2)){
+System.out.println("Both objects are same");
+}
+else{
+System.out.println("objects are different");
+}
+if(r1.equals(r1)){
+System.out.println("Both objects are same");
+}
+else{
+System.out.println("objects are different");
+}
+}
+}
+}
