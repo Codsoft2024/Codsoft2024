@@ -1,4 +1,4 @@
-Abstract class P{
+abstract class P{
 abstract public void dis();
 public void getname(){
 System.out.println("***"+this.getClass());
