@@ -12,7 +12,7 @@ System.out.println("m2 of B class");
 }
 }
 public class DMD{
-static public void main(string ...a){
+static public void main(string ...c){
  A c = new A();
  a.m1();
 B b = new B();
