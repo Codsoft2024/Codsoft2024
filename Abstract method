@@ -1,5 +1,5 @@
 abstract class P{
-abstract public void dis();
+abstract public void disp();
 public void getname(){
 System.out.println("***"+this.getClass());
 }
