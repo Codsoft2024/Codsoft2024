@@ -6,12 +6,12 @@ System.out.println("***"+this.getClass());
 }
 class C1 extends P{
 public void disp(){
-System.out.println("#######Def.by C1"):
+System.out.println("#######Def.by C1");
 }
 }
 class C2 extends P{
 public void disp(){
-System.out.println("Def.by C2*********"):
+System.out.println("Def.by C2*********");
 }
 }
 public class AbstractDemo{
