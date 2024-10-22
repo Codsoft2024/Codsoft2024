@@ -1,18 +1,1 @@
- #include<stdio.h>
-int main()
-{
-int i=2,n;
-for(i=0;i<n;i++)
-printf("%d",n);
-}
 
-
-#include<stdio.h>
-int main()
-{
-int a=3<b=4;
-if
-("a<b print true");
-else
-("a>b print false");
-}
