@@ -1,0 +1,11 @@
+package p1;
+public class PkgDemo{
+public void m1(){
+System.out.println("public m1");}
+protected void m2(){
+System.out.println("protected m2");}
+ void m3(){
+System.out.println("default  m3");}
+private void m4(){
+System.out.println("private m4");}
+}
